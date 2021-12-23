@@ -1,4 +1,4 @@
-import { createGraph } from './createChart';
+import * as createGraph from 'chartist-alpha';
 import { graphSvg } from './svgs';
 import { colors, graphArgs } from './interfaces/interface';
 

@@ -60,7 +60,6 @@ export const fetchContributions = async (username: string) => {
         5 + presentDay,
         36 + presentDay
       );
-      console.log(userData);
       return userData;
     }
   } catch (error) {
