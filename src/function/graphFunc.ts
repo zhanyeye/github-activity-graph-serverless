@@ -9,7 +9,7 @@ import { Context } from '@midwayjs/faas';
 import { main } from '../service/index'
 
 @Provide()
-export class HelloHTTPService {
+export class GraphHTTPService {
   @Inject()
   ctx: Context;
 
